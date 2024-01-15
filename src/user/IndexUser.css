@@ -1,0 +1,91 @@
+/* Ajoutez ces styles CSS dans un fichier CSS séparé ou dans votre fichier CSS global */
+
+/* Style de base pour le tableau */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  /* Style pour l'en-tête du tableau */
+  thead {
+    background-color: #f2f2f2;
+  }
+  
+  thead th {
+    text-align: left;
+    padding: 10px;
+    font-weight: bold;
+    border-bottom: 2px solid #ccc;
+  }
+  
+  /* Style pour les lignes impaires du tableau */
+  tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  /* Style pour les cellules du tableau */
+  td {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  /* Style pour les images dans les cellules */
+  td img {
+    max-width: 50px;
+    max-height: 50px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+
+  /* Boutons d'action */
+.action-btn {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 5px;
+  transition: background-color 0.2s;
+}
+
+.action-btn .show {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+
+.action-btn.edit {
+  background-color: #f0ad4e; /* Orange */
+  color: white;
+  }
+  
+  .action-btn.delete {
+  background-color: #d9534f; /* Red */
+  color: white;
+  }
+  
+  .action-btn:hover {
+  opacity: 0.8;
+  }
+
+  /* Styles pour la section détails de l'utilisateur */
+.user-details {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  background-color: #fff;
+  }
+  .user-details h3 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
+    }
+    
+    .user-details p {
+    font-size: 16px;
+    margin: 5px 0;
+    }
+
+  
